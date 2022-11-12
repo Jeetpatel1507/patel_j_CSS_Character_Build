@@ -63,7 +63,7 @@ padding: 14px 8px;
     width: 150px;
     height: 150px;
 
-    background-image: url('../image/marvelSprites.jpg');
+    background-image: url('../image/HIMYM.png');
 }
 
 .sprite:hover { background-position-y: -150px !important; }
