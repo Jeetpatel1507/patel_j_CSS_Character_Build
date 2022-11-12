@@ -1,0 +1,178 @@
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.hidden { display: none; }
+
+html, body { height: 100% }
+
+body { 
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  background-image: url('../image/denim.png');
+}
+
+/* style the header */
+header {
+    background-color: rgb(255, 0, 0);
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+#main-logo { width: 300px; padding: 10px 0; }
+
+/* main section styles */
+#character-nav { 
+     text-align: center;
+     background-color: #621717;
+
+
+    /* add a background image to the nav element */
+    background-image: url('../image/characters_art_mas_mob_01.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-blend-mode: multiply;
+}
+
+
+.characters { list-style-type: none;}
+
+.characters li h5 {
+padding: 14px 8px;
+}
+
+.characters li {
+     display: inline-block;
+     height: 220px;
+     margin: 10px 8px;
+
+     background-color: black;
+     text-align: left;
+     overflow: hidden;
+    }
+
+.characters li img { width: 150px; cursor: pointer;}
+
+.sprite{
+    width: 150px;
+    height: 150px;
+
+    background-image: url('../image/marvelSprites.jpg');
+}
+
+.sprite:hover { background-position-y: -150px !important; }
+
+#carol { background-position: -150px 0;}
+#clint { background-position: -300px 0;}
+#hulk { background-position: -450px 0;}
+#thor { background-position: -600px 0;}
+#widow { background-position: -750px 0;}
+
+
+.red-bumper {height: 6px; background-color: red; }
+
+
+article { padding: 20px;}
+
+article h3 {
+    font-size: center;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+article p {
+    width: 70%;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 auto;
+}
+/* style the footer */
+footer {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.sticky_footer {
+    position: sticky;
+    top: 100%;
+
+    height:  80px;
+    background-color: rgb(40, 37, 37);
+
+
+}
+/* light box */
+.lightbox {
+    display: none;
+    width: 100vw; /* viewport width = width of the browser window */
+    height: 100vh;  /* viewport hieght = hieght of the browser window */
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.85);
+    background-repeat: no-repeat;
+
+    background-position: 40px bottom;
+    background-size: 55vh;
+}
+
+.lb_close {
+
+    
+    color: white ;
+    font-size : 2en ;
+
+    text-decoration: none;
+
+    position: relative;
+    top:12px;
+    left:98%;
+    font-weight: bolder;
+
+} 
+
+.lb_close:hover {
+    opacity: 0.5;
+
+}
+
+.lightbox article{
+    width: 55%;
+    margin-left: 40% ;
+    padding-top: 50px;
+}
+
+.lb_text,.lb_heading{ text-align: left; }
+
+.lb_text{ 
+    line-height: 1.6;
+    margin-left: 0 ;
+    padding-top: 2em ;
+}
+
+#lightBox{
+    background-image: url("../image/Cap_LB_Bg.png");
+    
+}
+#lightBox2{
+    background-image: url("../image/Thor_LB_Bg.png");
+
+}
+
+#lightBox3{
+    background-image: url("../image/carel_LB-Bg.png");
+}
+
+.lightbox:target{
+    display: block;
+}
