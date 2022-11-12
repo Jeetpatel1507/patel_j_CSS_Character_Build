@@ -61,6 +61,11 @@ padding: 14px 8px;
 
 .characters li img { width: 150px; cursor: pointer;}
 
+h3{
+    color: black;
+}
+
+
 .sprite{
     width: 150px;
     height: 150px;
