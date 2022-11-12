@@ -13,12 +13,14 @@ body {
   font-family: sans-serif;
   background-color: black;
   color: white;
-  background-image: url('../image/denim.png');
+  background-image: url('../image/textures.jpg');
+  background-size:cover;
+
 }
 
 /* style the header */
 header {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(229, 255, 0);
     position: sticky;
     top: 0;
     text-align: center;
@@ -29,11 +31,11 @@ header {
 /* main section styles */
 #character-nav { 
      text-align: center;
-     background-color: #621717;
+     background-color: rgb(223, 223, 70);
 
 
     /* add a background image to the nav element */
-    background-image: url('../image/characters_art_mas_mob_01.jpeg');
+    background-image: url('../image/textures.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -52,7 +54,7 @@ padding: 14px 8px;
      height: 220px;
      margin: 10px 8px;
 
-     background-color: black;
+     background-color: rgb(223, 223, 70);
      text-align: left;
      overflow: hidden;
     }
@@ -68,14 +70,14 @@ padding: 14px 8px;
 
 .sprite:hover { background-position-y: -150px !important; }
 
-#carol { background-position: -150px 0;}
-#clint { background-position: -300px 0;}
-#hulk { background-position: -450px 0;}
-#thor { background-position: -600px 0;}
-#widow { background-position: -750px 0;}
+#robin { background-position: -150px 0;}
+#marshall { background-position: -300px 0;}
+#lily { background-position: -450px 0;}
+#barney { background-position: -600px 0;}
+#mother { background-position: -750px 0;}
 
 
-.red-bumper {height: 6px; background-color: red; }
+.red-bumper {height: 6px; background-color: rgb(246, 253, 144); }
 
 
 article { padding: 20px;}
@@ -105,7 +107,7 @@ footer {
     top: 100%;
 
     height:  80px;
-    background-color: rgb(40, 37, 37);
+    background-color: rgb(136, 146, 0);
 
 
 }
@@ -161,18 +163,30 @@ footer {
 }
 
 #lightBox{
-    background-image: url("../image/Cap_LB_Bg.png");
+    background-image: url("../image/ted_LB-Bg.png");
     
 }
 #lightBox2{
-    background-image: url("../image/Thor_LB_Bg.png");
+    background-image: url("../image/barney_LB-Bg.png");
 
 }
 
 #lightBox3{
-    background-image: url("../image/carel_LB-Bg.png");
+    background-image: url("../image/Robin_LB-Bg.png");
+}
+
+#lightBox4{
+    background-image: url("../image/Marshall_LB-Bg.png");
+}
+
+#lightBox5{
+    background-image: url("../image/lily_LB-Bg.png");
 }
 
 .lightbox:target{
     display: block;
+}
+
+#lightbox6{
+    background-image: url("../image/wife_LB-Bg.png");
 }
